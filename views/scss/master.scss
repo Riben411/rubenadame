@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$ruben_color: #000;
+$rbn24_bgcolor: #b4b4b4;
+
+@import 'header';
+@import 'navbar';
+@import 'main';
+@import 'images';
+@import 'aside';
+@import 'footer';

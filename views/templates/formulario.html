@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>{$title}</title>
+    {include file='views/inc/dependencies.html'}
+  </head>
+  <body>
+    <head>
+      <h1>Formulario</h1>
+    </head>
+
+    <main>
+
+      <div class="container">
+        <section>
+          <form class="formulario" action="#" method="post">
+
+            <ul>
+              <li>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" value="" required placeholder="Andrew">
+              </li>
+
+              <li>
+                <label for="email">Email:</label>
+                <input type="email" name="email" value="" required placeholder="ejemplo@correo.com">
+              </li>
+
+              <li>
+                <label for="tel">Teléfono:</label>
+                <input type="tel" name="tel" value="" required placeholder="7773447577">
+              </li>
+
+              <li>
+                <label for="web">Sitio Web:</label>
+                <input type="url" name="web" value="" required placeholder="http://www.miweb.com">
+              </li>
+              <li>
+                <label for="nivel_interes">Nivel de Interes</label>
+                <input type="range" name="nivel_interes" id="nivel_interes" min="0" max="5" step="1" value="0">
+              </li>
+              <li>
+                <button type="submit" class="submit">Enviar</button>
+              </li>
+            </ul>
+
+          </form>
+        </section>
+      </div>
+
+    </main>
+  </body>
+</html>

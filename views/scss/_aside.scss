@@ -1,0 +1,15 @@
+.noticias {
+  border: solid 1px #750f00;
+  padding: 10px;
+  width: 20%;
+  float: right;
+  background: #9a9a9a;
+  border-radius: 10px;
+  & h4 {
+    text-align: center;
+  }
+  & p {
+
+    font-family: sans-serif;
+  }
+}
