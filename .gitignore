@@ -1,1 +1,3 @@
-test/
+core/config/config.php
+storage/cache/
+storage/images/
